@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Twitter_X - Responsive Social Media Website Uesing HTML & CSS & JAVASCRIPT</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+     <!-- Poppins -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ 
+     <!-- Tinos -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+ 
+     <!-- Garamond -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+ 
+     <!-- Roboto Condensed -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+ 
+     <!-- Quicksand -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/animation.css">
+</head>
+
+<body>
+
+    <!-- ======================= header ====================== -->
+    <div class="header">
+
+    </div>
+    <!-- ============================ Main =============================== -->
+    <div class="main">
+        <div id="log" class="container">
+            <div class="log-in">
+                <div class="title">
+                    <h1>Sign in to your Account</h1>
+                    <p>Sign In with Social Media</p>
+                </div>
+                <ul class="icon-socil">
+                    <li><a href="#"><i class="bi bi-twitter-x" style="--clr-icon: #000;"></i></a></li>
+                    <li><a href="#"><i class="bi bi-facebook" style="--clr-icon: #1876f2;"></i></a></li>
+                    <li><a href="#"><i class="bi bi-whatsapp" style="--clr-icon: #25d366;"></i></a></li>
+                </ul>
+                <div class="with">
+                    <span></span>
+                    <p>Or, sign in with your email</p>
+                    <span></span>
+                </div>
+                <form action="home.html">
+                    <div class="field username-field">
+                        <div class="input-field">
+                            <label for="username">Username</label>
+                            <input type="text" name="username" id="username" placeholder="Enter your name"
+                                class="username">
+                        </div>
+                        <span class="error email-error">
+                            <i class="bi bi-exclamation-circle"></i>
+                            <p>Please enter atleast 4 charatcer</p>
+                        </span>
+                    </div>
+                    <div class="field create-password">
+                        <div class="input-field">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="Create Password" class="password">
+                            <i class="bi bi-eye-slash-fill show-hide"></i>
+                        </div>
+                        <span class="error password-error">
+                            <i class="bi bi-exclamation-circle"></i>
+                            <p class="error-text">Please enter atleast 8 charatcer with number, small, capital letter
+                                and special characters</p>
+                        </span>
+                    </div>
+                    <div class="check-div">
+                        <div class="cntr">
+                            <input checked="trur" type="checkbox" id="cbx" class="hidden-xs-up" />
+                            <label for="cbx" class="cbx"></label>
+                        </div>
+                        <span>I'm Not Robot</span>
+                    </div>
+                    <div class="input-field button">
+                        <button class="submit-button disabled">Login Now</button>
+                    </div>
+                </form>
+                <p class="last-p">Don't have an account? <a href="register.html">Register</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================== Theme Customization =================================== -->
+    <div class="customization-theme">
+        <div class="card">
+            <h2>Customize your view</h2>
+            <p class="text-muted">Manage your font size, color, background, and background image</p>
+
+            <!----------------------------- Font Size ----------------------------------->
+            <div class="font-family">
+                <h4>Line Type</h4>
+                <div>
+                    <div class="choose-family">
+                        <span data-family="'Poppins', sans-serif" class="family-1 active">
+                            <h5>FF</h5>
+                        </span>
+                        <span data-family="'Tinos', sans-serif" class="family-2">
+                            <h5>FF</h5>
+                        </span>
+                        <span data-family="'Garamond', sans-serif" class="family-3">
+                            <h5>FF</h5>
+                        </span>
+                        <span data-family="'Roboto Condensed', sans-serif" class="family-4">
+                            <h5>FF</h5>
+                        </span>
+                        <span data-family="'Quicksand', sans-serif" class="family-5">
+                            <h5>FF</h5>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!----------------------------- Primary Colors ----------------------------------->
+            <div class="color">
+                <h4>Color</h4>
+                <div>
+                    <div class="choose-color">
+                        <span class="color-1" data-color="#fe5b3d" style="--bg-clr: #fe5b3d;"></span>
+                        <span class="color-2" data-color="#01b1d7" style="--bg-clr: #01b1d7;"></span>
+                        <span class="color-3" data-color="#E25ABC" style="--bg-clr: #E25ABC;"></span>
+                        <span class="color-4" data-color="#85c34a" style="--bg-clr: #51fb51;"></span>
+                        <span class="color-5" data-color="#8e44ad" style="--bg-clr: #704ce6;"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!----------------------------- Background Color ----------------------------------->
+            <div class="background">
+                <h4>Background</h4>
+                <div class="choose-bg">
+                    <div data-light="88%" data-dark="17%" data-white="100%" class="bg-1">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div data-light="28%" data-dark="95%" data-white="20%" class="bg-2">
+                        <span></span>
+                        <h5>Dim</h5>
+                    </div>
+                    <div data-light="0%" data-dark="96%" data-white="10%" class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Light Out</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="close"><i class="bi bi-x"></i></button>
+        </div>
+    </div>
+    <!-- =============================== Check Modal ======================================== -->
+    <div class="check-modal">
+        <span class="overlayCheck"></span>
+        <div class="card">
+            <div class="head-check">Captcha Generator</div>
+            <div class="input_field captch-box">
+                <input type="text" value="" disabled />
+                <button class="refresh_button">
+                    <i class="bi bi-arrow-clockwise"></i>
+                </button>
+            </div>
+            <div class="input_field captch-input">
+                <input type="text" placeholder="Enter Check" />
+            </div>
+            <div class="message">Entered captcha is corrent</div>
+            <div class="input_field submit disabled">
+                <button>Submit Captcha</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="setting" id="theme"><i class="bi bi-gear"></i></div>
+    <div class="left">
+
+    </div>
+    <div id="add-post" onclick=""><i class="bi bi-feather"></i></div>
+    <div id="toastBox"></div>
+    <!--<i class="bi bi-eye-fill"></i>
+        <i class="bi bi-eye-slash-fill"></i> 
+        <i class="bi bi-github"></i>
+        <i class="bi bi-exclamation-circle"></i>-->
+    <!-- <div id="add-post" onclick=""><i class="bi bi-feather"></i></div> -->
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/login.js"></script>
+    
+</body>
+
+
+</html>

@@ -1,0 +1,3 @@
+leftHeader.remove();
+
+btnAdd.remove()
